@@ -2,6 +2,8 @@
 
 The Haus of DADA AI chat widget and its API, deployed on Vercel separately from the website.
 
+Developer guide (architecture, env vars, gotchas, troubleshooting): [DEVELOPER.md](DEVELOPER.md)
+
 - `chatbot/` — the widget (ES modules + CSS), served as static files
 - `api/chat.js` — AI replies (Groq → Gemini → OpenRouter)
 - `api/lead.js` — lead form → Google Sheets + email
